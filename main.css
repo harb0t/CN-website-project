@@ -31,10 +31,19 @@ body {
   .navbarimage{
     display: block;
     max-width:230px;
-    max-height:95px;
+    max-height:55px;
     width: auto;
     height: auto;
   }
+
+.harbotlogo{
+    display: block;
+    max-width:230px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
 .harbotpic{
     width: 50%;
 
@@ -67,7 +76,7 @@ body {
     min-width: 50vw;
     max-width: 93vw;
     min-height: 100vh;
-    background-color: blue;
+    /* background-color: blue; */
     justify-content: center;
     font-size: 100%;
 }
@@ -76,7 +85,7 @@ body {
     flex: 0.5;
     height: 25%;
     width: 10%;
-    background-color: purple;
+    /* background-color: purple; */
     margin: 10px;
     padding-right: 50px;
     justify-content: left;
@@ -97,7 +106,7 @@ body {
 }
 
 .greenbox {
-    background-color: green;
+    /* background-color: green; */
     height: 105%;
     width: 48%;
     text-align: right;
@@ -105,19 +114,19 @@ body {
 }
 
 .yellowbar {
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 105%;
     width: 4%;
 }
 
 .pinkbox {
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
     height: 105%;
     width: 48%;
 }
 
 .orangebox {
-    background-color: orange;
+    /* background-color: orange; */
     height: 25%;
     text-align:center;
     justify-content: center;
@@ -127,19 +136,19 @@ body {
     display: flex;
 }
 .boxlefthalf{
-    background-color: rgb(0, 187, 255);
+    /* background-color: rgb(0, 187, 255); */
     height: 160%;
     width: 50%;  
     text-align: right;
 }
 .boxrighthalf{
-    background-color: rgb(255, 0, 0);
+    /* background-color: rgb(255, 0, 0); */
     height: 160%;
     width: 50%;  
 }
 
 .horizontalyellowbar {
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 105%;
     width: 4%;
     flex-direction: row;
@@ -152,13 +161,13 @@ body {
     min-height: 100vh;
 }
 .tophalf{
-    background-color: rgb(0, 187, 255);
+    /* background-color: rgb(0, 187, 255); */
     height: 5%;
     text-align:left;
     justify-content: center;
 }
 .bottomhalf{
-    background-color: rgb(0, 255, 110);
+    /* background-color: rgb(0, 255, 110); */
     height: 75%;
     text-align:center;
     justify-content: center;
@@ -185,6 +194,28 @@ body {
     width: 1%;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .indexpic{
+    width: 90%;
+
+}
 /* -----flexbox---------- */
 /* .container_one {
     display: flex;
