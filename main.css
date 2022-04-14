@@ -1,0 +1,253 @@
+/* Fonts */
+/* main headers extrabold 800 raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+/* ----------------------------- */
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+body {
+    background-image: url(images/paper_texture.png);
+    }
+
+
+/* 
+body {
+        background-image: url(images/paper_texture.jpg);
+        background-color: rgba(100, 144, 126, 0.4); 
+} */
+.icon{
+    width: 100%;
+    height: 100%;
+  }
+
+  .navbarimage{
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+  }
+.harbotpic{
+    width: 50%;
+
+}
+
+
+.heading {
+    font-family: 'Bebas Neue', cursive;
+
+}
+.navbar ul {
+    list-style-type: none;
+}
+/* took away bullet points */
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+}
+
+.navbar :hover {
+    color: rgb(167, 111, 7);
+}
+
+.containerblue {
+    display: flex;
+    min-width: 50vw;
+    max-width: 93vw;
+    min-height: 100vh;
+    background-color: blue;
+    justify-content: center;
+    font-size: 100%;
+}
+
+.purplebox {
+    flex: 0.5;
+    height: 25%;
+    width: 10%;
+    background-color: purple;
+    margin: 10px;
+    padding-right: 50px;
+    justify-content: left;
+    text-align: left;
+    font-size: 100%;
+}
+
+.containerright {
+    display: flex;
+    flex:3;
+    flex-direction: column;
+    margin: 10px;
+    min-height: 100vh;
+}
+
+.containertopright {
+    display: flex;
+}
+
+.greenbox {
+    background-color: green;
+    height: 105%;
+    width: 48%;
+    text-align: right;
+    
+}
+
+.yellowbar {
+    background-color: yellow;
+    height: 105%;
+    width: 4%;
+}
+
+.pinkbox {
+    background-color: palevioletred;
+    height: 105%;
+    width: 48%;
+}
+
+.orangebox {
+    background-color: orange;
+    height: 25%;
+    text-align:center;
+    justify-content: center;
+}
+
+.maincountainer{
+    display: flex;
+}
+.boxlefthalf{
+    background-color: rgb(0, 187, 255);
+    height: 160%;
+    width: 50%;  
+    text-align: right;
+}
+.boxrighthalf{
+    background-color: rgb(255, 0, 0);
+    height: 160%;
+    width: 50%;  
+}
+
+.horizontalyellowbar {
+    background-color: yellow;
+    height: 105%;
+    width: 4%;
+    flex-direction: row;
+}
+.horizontalcontainerright {
+    display: flex;
+    flex:3;
+    flex-direction: row;
+    margin: 10px;
+    min-height: 100vh;
+}
+.tophalf{
+    background-color: rgb(0, 187, 255);
+    height: 5%;
+    text-align:left;
+    justify-content: center;
+}
+.bottomhalf{
+    background-color: rgb(0, 255, 110);
+    height: 75%;
+    text-align:center;
+    justify-content: center;
+}
+/* boxes */
+
+* {
+    box-sizing: border-box;
+}
+
+.drawingcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 5px;
+    min-height: 5%;
+    max-height: 5%;
+}
+
+.drawing {
+    width: 1%;
+}
+
+/* -----flexbox---------- */
+/* .container_one {
+    display: flex;
+    min-width: 100vw;
+    flex-direction: row; */
+    /* flex-wrap: wrap; */
+/* } */
+/* .container_two {
+    display: flex;
+    min-width: 100vw;
+    flex-direction: row;
+}
+.container_three {
+    display: flex;
+    min-width: 100vw;
+    flex-direction: row;
+}
+.container_four {
+    display:flex;
+    min-width: 100vw;
+    flex-direction:column ;
+}
+.container_five {
+    display: flex;
+    min-width: 100vw;
+    flex-direction: row;
+} */
+/* vw for width vh for height */
+/* .box {
+    color: rgb(0, 0, 0);
+    font-size:large; */
+    /* line above can be adjust to shift with change with window */
+    /* font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 15px;
+    
+    width: 50%; */
+   /* setting width allows adaptablibity / responsive */
+   /* Can be px or percentages */
+
+/* } */
+
+/* .box1 { background: #0c14ff;
+    justify-content: center;
+    width: 100%;
+}
+
+.box2 { background: #730fff;
+    justify-content: left;
+    text-align: left;
+    width: 10%;
+}
+.box3 { background: #0bd25b;
+    justify-content: right;
+    text-align: right;
+    width: 90%;
+}
+.box4 { background: #f2ff01;
+    width: 1%;
+}
+.box5 { background: #ff03dd;
+    justify-content: left;
+    text-align: left;
+    width: 90%;
+}
+.box6 { background: #ff850cd2;} */
