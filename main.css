@@ -10,7 +10,7 @@
 
 * {
     font-family: 'Raleway', sans-serif;
-   
+
 }
 
 body {
@@ -106,7 +106,6 @@ body {
 }
 
 .greenbox {
-    /* background-color: green; */
     height: 105%;
     width: 48%;
     text-align: right;
@@ -114,19 +113,16 @@ body {
 }
 
 .yellowbar {
-    /* background-color: yellow; */
     height: 105%;
     width: 4%;
 }
 
 .pinkbox {
-    /* background-color: palevioletred; */
     height: 105%;
     width: 48%;
 }
 
 .orangebox {
-    /* background-color: orange; */
     height: 25%;
     text-align:center;
     justify-content: center;
@@ -136,19 +132,16 @@ body {
     display: flex;
 }
 .boxlefthalf{
-    /* background-color: rgb(0, 187, 255); */
     height: 160%;
     width: 50%;  
     text-align: right;
 }
 .boxrighthalf{
-    /* background-color: rgb(255, 0, 0); */
     height: 160%;
     width: 50%;  
 }
 
 .horizontalyellowbar {
-    /* background-color: yellow; */
     height: 105%;
     width: 4%;
     flex-direction: row;
@@ -161,18 +154,15 @@ body {
     min-height: 100vh;
 }
 .tophalf{
-    /* background-color: rgb(0, 187, 255); */
     height: 5%;
     text-align:left;
     justify-content: center;
 }
 .bottomhalf{
-    /* background-color: rgb(0, 255, 110); */
     height: 75%;
     text-align:center;
     justify-content: center;
 }
-/* boxes */
 
 * {
     box-sizing: border-box;
@@ -198,87 +188,34 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-  }
-  
-  .column {
+}
+
+.column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-  }
-  
-  .column img {
+}
+
+.column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-  }
+}
 
-  .indexpic{
+.indexpic{
     width: 90%;
 
 }
-/* -----flexbox---------- */
-/* .container_one {
-    display: flex;
-    min-width: 100vw;
-    flex-direction: row; */
-    /* flex-wrap: wrap; */
-/* } */
-/* .container_two {
-    display: flex;
-    min-width: 100vw;
-    flex-direction: row;
-}
-.container_three {
-    display: flex;
-    min-width: 100vw;
-    flex-direction: row;
-}
-.container_four {
-    display:flex;
-    min-width: 100vw;
-    flex-direction:column ;
-}
-.container_five {
-    display: flex;
-    min-width: 100vw;
-    flex-direction: row;
-} */
-/* vw for width vh for height */
-/* .box {
-    color: rgb(0, 0, 0);
-    font-size:large; */
-    /* line above can be adjust to shift with change with window */
-    /* font-family: 'Raleway', sans-serif;
-    text-align: center;
-    padding: 15px;
-    
-    width: 50%; */
-   /* setting width allows adaptablibity / responsive */
-   /* Can be px or percentages */
-
-/* } */
-
-/* .box1 { background: #0c14ff;
-    justify-content: center;
-    width: 100%;
-}
-
-.box2 { background: #730fff;
-    justify-content: left;
-    text-align: left;
-    width: 10%;
-}
-.box3 { background: #0bd25b;
-    justify-content: right;
-    text-align: right;
+.bigcurve{
+    border-radius: 100px;
     width: 90%;
 }
-.box4 { background: #f2ff01;
-    width: 1%;
+
+.curve{
+    border-radius: 25px;
 }
-.box5 { background: #ff03dd;
-    justify-content: left;
-    text-align: left;
-    width: 90%;
+
+.thumbnail:hover {
+    position:relative;
+    width:150%;
 }
-.box6 { background: #ff850cd2;} */
